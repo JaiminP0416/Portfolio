@@ -1,0 +1,90 @@
+.scrollup {
+    position: fixed;
+    right: 2.5rem;
+    bottom: -20%;
+    background-color: var(--title-color);
+    width: 25px;
+    height: 25px;
+    opacity: 0.8;
+    padding: 0.5rem 0.5rem;
+    border-radius: 0.4rem;
+    z-index: var(--z-tooltip);
+    transition: 0.4s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.scrollup__icon {
+
+    font-size: 2rem;
+    color: var(--container-color);
+}
+
+.scrollup:hover {
+    background-color: var(--title-color-dark);
+}
+
+.show-scroll {
+    bottom: 3rem;
+}
+
+/* BREAKPOINTS */
+
+/* For large devices */
+@media screen and (max-width: 992px){
+
+    .scrollup {
+        right: 1.5rem;
+        padding: 0.4rem 0.4rem;
+    }
+
+    .scrollup__icon {
+
+        font-size: 1.8rem;
+}
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px){
+
+}
+
+@media screen and (max-width: 576px){
+}
+/* For small devices */
+
+@media screen and (max-width: 350px){
+
+}
+
+
+
+
+
+/* FOR BUTTON */
+/* .scrollup__container {
+    display: grid;
+    position: right;
+    align-items: center;
+    justify-content: right;
+    font-size: 2rem;
+}
+
+
+.scrollup__button {
+    position: fixed;
+    bottom: 52px;
+    right: 24px;
+    width: 48px;
+    height: 48px;
+    padding: 0.8rem;
+    justify-content: center;
+    z-index: 1000;
+}
+
+
+.scrollup__button-icon {
+    font-size: 2rem;
+} */
