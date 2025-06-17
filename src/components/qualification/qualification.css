@@ -35,7 +35,7 @@
 .qualification__sections {
 
     display: grid;
-    grid-template-columns: 0.5fr;
+    /* grid-template-columns: 0.5fr; */
     justify-content: center;
 }
 
@@ -57,7 +57,7 @@
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
     margin-top: 0;
-    margin-bottom: var( --mb-0-75);
+    margin-bottom: var(--mb-0-75);
 }
 
 .qualification__subtitle {
@@ -66,7 +66,7 @@
     /* margin-bottom: var(--mb-1); */
 }
 
-.qualification__calender {
+.qualification__calendar {
     font-size: var(--small-font-size);
 }
 
