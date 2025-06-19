@@ -53,9 +53,9 @@
     column-gap: 1.5rem;
 }
 
-.left-row {
+/* .left-row {
     padding-left: 5rem;
-}
+} */
 
 .qualification__title {
     font-size: var(--normal-font-size);
