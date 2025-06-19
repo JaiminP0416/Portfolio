@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.6ef1d3d3.css",
-    "main.js": "/Portfolio/static/js/main.e812e543.js",
+    "main.css": "/Portfolio/static/css/main.87e1fa2f.css",
+    "main.js": "/Portfolio/static/js/main.a5f2602e.js",
     "static/media/Profile.jpg": "/Portfolio/static/media/Profile.a0a64801b0302953f3c0.jpg",
     "static/media/about.jpg": "/Portfolio/static/media/about.84f0b40e233169f1c8f3.jpg",
-    "static/media/John-Cv.pdf": "/Portfolio/static/media/John-Cv.e83747cf513e0b21a7f1.pdf",
+    "static/media/Jaimin_Patel_Resume.pdf": "/Portfolio/static/media/Jaimin_Patel_Resume.22ec406cee9090ba3d5e.pdf",
     "index.html": "/Portfolio/index.html"
   },
   "entrypoints": [
-    "static/css/main.6ef1d3d3.css",
-    "static/js/main.e812e543.js"
+    "static/css/main.87e1fa2f.css",
+    "static/js/main.a5f2602e.js"
   ]
 }
