@@ -5,7 +5,9 @@ const Data = () => {
     <div className="home__data">
         <h1 className="home__title">Jaimin Patel</h1>
         <h3 className="home__subtitle"> Web Designer</h3>
-        <p className="home__description"> I'm creative web designer based in Toronto, and I'm very passionate and dedicated to my work.</p>
+        <p className="home__description">I craft digital experiences that don’t just look good—they feel right.<span style={{display: "block", height: "8px"}}></span>Passionate? Always. Dedicated? Obsessively.<span style={{display: "block", height: "8px"}}></span>Let’s build something beautiful together.</p>
+
+{/* Toronto-based web designer who blends code with creativity.  */}
 
         <a href="#contact" className="button button--flex">
             Say Hello

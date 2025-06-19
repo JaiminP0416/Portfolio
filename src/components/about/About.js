@@ -2,7 +2,7 @@ import React from 'react'
 import "./about.css";
 import AboutImg from "../../assets/about.jpg";
 import Info from './Info';
-import CV from "../../assets/John-Cv.pdf";
+import CV from "../../assets/Jaimin_Patel_Resume.pdf";
 const About = () => {
   return (
     <section className="about section" id="about">
@@ -15,7 +15,7 @@ const About = () => {
             <div className="about__data">
                 <Info/>
 
-                <p className="about__description">Frontend developer, I create web pages with UI / UX user interface, I have years of ecperience and many clients are happy with the projects carried out.</p>
+                <p className="about__description">Frontend developer crafting intuitive, user-focused web interfaces. I turn design into smooth, responsive, and engaging digital experiences.</p>
 
                 <a download="" href={CV} className="button button--flex">Download Resume
                 <svg

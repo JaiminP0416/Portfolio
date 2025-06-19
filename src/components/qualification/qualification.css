@@ -12,7 +12,7 @@
 .qualification__button {
     font-size: var(--h3-font-size);
     font-weight: var(--font-medium);
-    color: var(--title-color);
+    color: var(--text-color-dark);
     margin: 0 var(--mb-1);
     cursor: pointer;
 }
@@ -51,6 +51,10 @@
     display: grid;
     grid-template-columns: 1fr max-content 1fr;
     column-gap: 1.5rem;
+}
+
+.left-row {
+    padding-left: 5rem;
 }
 
 .qualification__title {
