@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.87e1fa2f.css",
-    "main.js": "/Portfolio/static/js/main.a5f2602e.js",
+    "main.css": "/Portfolio/static/css/main.5a19179b.css",
+    "main.js": "/Portfolio/static/js/main.df98e454.js",
     "static/media/Profile.jpg": "/Portfolio/static/media/Profile.a0a64801b0302953f3c0.jpg",
     "static/media/about.jpg": "/Portfolio/static/media/about.84f0b40e233169f1c8f3.jpg",
     "static/media/Jaimin_Patel_Resume.pdf": "/Portfolio/static/media/Jaimin_Patel_Resume.22ec406cee9090ba3d5e.pdf",
     "index.html": "/Portfolio/index.html"
   },
   "entrypoints": [
-    "static/css/main.87e1fa2f.css",
-    "static/js/main.a5f2602e.js"
+    "static/css/main.5a19179b.css",
+    "static/js/main.df98e454.js"
   ]
 }
