@@ -1,14 +1,21 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.5a19179b.css",
-    "main.js": "/Portfolio/static/js/main.df98e454.js",
+    "main.css": "/Portfolio/static/css/main.dbf55da9.css",
+    "main.js": "/Portfolio/static/js/main.13f337b2.js",
     "static/media/Profile.jpg": "/Portfolio/static/media/Profile.a0a64801b0302953f3c0.jpg",
     "static/media/about.jpg": "/Portfolio/static/media/about.84f0b40e233169f1c8f3.jpg",
     "static/media/Jaimin_Patel_Resume.pdf": "/Portfolio/static/media/Jaimin_Patel_Resume.22ec406cee9090ba3d5e.pdf",
-    "index.html": "/Portfolio/index.html"
+    "static/media/work2.jpg": "/Portfolio/static/media/work2.e52a0c2981a6c11ba468.jpg",
+    "static/media/work4.jpg": "/Portfolio/static/media/work4.aee985961b648f4df1f2.jpg",
+    "static/media/work5.jpg": "/Portfolio/static/media/work5.094ec4a2224db8908873.jpg",
+    "static/media/work1.jpg": "/Portfolio/static/media/work1.321b4ae3bf404acdfdc6.jpg",
+    "static/media/work3.jpg": "/Portfolio/static/media/work3.135e9065694bc13dc31d.jpg",
+    "index.html": "/Portfolio/index.html",
+    "main.dbf55da9.css.map": "/Portfolio/static/css/main.dbf55da9.css.map",
+    "main.13f337b2.js.map": "/Portfolio/static/js/main.13f337b2.js.map"
   },
   "entrypoints": [
-    "static/css/main.5a19179b.css",
-    "static/js/main.df98e454.js"
+    "static/css/main.dbf55da9.css",
+    "static/js/main.13f337b2.js"
   ]
 }
