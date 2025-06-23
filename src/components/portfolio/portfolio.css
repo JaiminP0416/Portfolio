@@ -1,6 +1,14 @@
+/* .portfolio__container {
+
+    max-width: 768px;
+} */
+
+
+
 .portfolio__tabs {
     display: flex;
-    justify-content: center;
+    justify-content:center;
+    gap: 1rem;
     margin-bottom: var(--mb-2);
 }
 
@@ -45,19 +53,20 @@
 }
 
 
+
 /* BREAKPOINTS */
 
 /* For large devices */
-@media screen and (max-width: 992px){
+/* @media screen and (max-width: 992px){
 
     .portfolio__container {
         margin-left: auto;
         margin-right: auto;
     }
-}
+} */
 
 /* For medium devices */
-@media screen and (max-width: 768px){
+/* @media screen and (max-width: 768px){
 
         .portfolio__container {
         margin-left: var(--mb-1-5);
@@ -77,16 +86,16 @@
     }
 
 
-}
+} */
 /* For small devices */
 
-@media screen and (max-width: 350px){
+/* @media screen and (max-width: 350px){
 
     .portfolio__data {
 
         gap: 0.5rem;
     }
-}
+} */
 
 /* /////////////////////////////////////////////////////////////////////////////////////// */
 
@@ -98,25 +107,26 @@
 }
 
 .proj__info {
-    grid-template-columns: repeat(3, 140px);
-    gap: 0.5rem;
+    display: grid;
+    column-gap: 80px;
+    grid-template-columns: repeat(auto-fit, minmax(255px,255px));
+    justify-content: center; 
     margin-bottom: var(--mb-2);
 }
 
-.proj__info.grid {
-    width: min-content;
-    column-gap: 180px;
-}
+/* .proj__info.grid {
+    margin-bottom: 50px;
+} */
 
 .proj__box {
     height: 250px;
     width: 280px;
-
     background-color: var(--container-color);
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 0.75rem;
     text-align: center;
     padding: 1rem 1.25rem;
+    margin-bottom: 1rem;
 }
 
 .proj__title {
