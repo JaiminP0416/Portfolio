@@ -5,6 +5,7 @@
 
 
 
+
 .portfolio__tabs {
     display: flex;
     justify-content:center;
@@ -108,9 +109,11 @@
 
 .proj__info {
     display: grid;
-    column-gap: 80px;
-    grid-template-columns: repeat(auto-fit, minmax(255px,255px));
+    column-gap: 60px;
+    width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(250px,280px));
     justify-content: center; 
+    align-items: center;
     margin-bottom: var(--mb-2);
 }
 
