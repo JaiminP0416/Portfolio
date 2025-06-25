@@ -39,11 +39,11 @@ const Qualification = () => {
                     
                     <div className="qualification__data">
                         <div className='left-row' >
-                            <h3 className="qualification__title">Web Developer</h3>
-                            <span className="qualification__subtitle">Freelancer</span>
+                            <h3 className="qualification__title">Jr. Web Developer</h3>
+                            <span className="qualification__subtitle">Maruti Digital Solutions</span>
                             <div className="qualification__calendar">
                                 <i className="uil uil-calendar-alt"> </i>
-                                2024 - Present
+                                2022 - 2023
                             </div>
                         </div>
 
