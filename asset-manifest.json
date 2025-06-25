@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.6a011e37.css",
-    "main.js": "/Portfolio/static/js/main.4a5c64db.js",
+    "main.js": "/Portfolio/static/js/main.5ee97234.js",
     "static/media/Profile.jpg": "/Portfolio/static/media/Profile.a0a64801b0302953f3c0.jpg",
     "static/media/about.jpg": "/Portfolio/static/media/about.84f0b40e233169f1c8f3.jpg",
     "static/media/Jaimin_Patel_Resume.pdf": "/Portfolio/static/media/Jaimin_Patel_Resume.22ec406cee9090ba3d5e.pdf",
@@ -12,10 +12,10 @@
     "static/media/work3.jpg": "/Portfolio/static/media/work3.135e9065694bc13dc31d.jpg",
     "index.html": "/Portfolio/index.html",
     "main.6a011e37.css.map": "/Portfolio/static/css/main.6a011e37.css.map",
-    "main.4a5c64db.js.map": "/Portfolio/static/js/main.4a5c64db.js.map"
+    "main.5ee97234.js.map": "/Portfolio/static/js/main.5ee97234.js.map"
   },
   "entrypoints": [
     "static/css/main.6a011e37.css",
-    "static/js/main.4a5c64db.js"
+    "static/js/main.5ee97234.js"
   ]
 }
