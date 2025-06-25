@@ -13,7 +13,7 @@ const Qualification = () => {
 
 
   return (
-    <section className="qualification section">
+    <section className="qualification section" id='qualification' >
         <h2 className="section__title">Qualification</h2>
         <span className="section__subtitle">My journey</span>
     
@@ -39,11 +39,11 @@ const Qualification = () => {
                     
                     <div className="qualification__data">
                         <div className='left-row' >
-                            <h3 className="qualification__title">Jr. Web Developer</h3>
-                            <span className="qualification__subtitle">Maruti Digital Solutions</span>
+                            <h3 className="qualification__title">Technical Support<br/>Specialist</h3>
+                            <span className="qualification__subtitle">Visaic Inc.</span>
                             <div className="qualification__calendar">
                                 <i className="uil uil-calendar-alt"> </i>
-                                2022 - 2023
+                                Dec 2023 - Present
                             </div>
                         </div>
 
@@ -63,11 +63,11 @@ const Qualification = () => {
                         </div>
 
                         <div>
-                            <h3 className="qualification__title">Technical Support<br/>Specialist</h3>
-                            <span className="qualification__subtitle">Visaic Inc.</span>
+                            <h3 className="qualification__title">Jr. Web Developer</h3>
+                            <span className="qualification__subtitle">Maruti Digital Solutions</span>
                             <div className="qualification__calendar">
                                 <i className="uil uil-calendar-alt"> </i>
-                                2023 - Present
+                                July 2022 - June 2023
                             </div>
                         </div>
 
@@ -79,7 +79,7 @@ const Qualification = () => {
                             <span className="qualification__subtitle">Precision Embedded</span>
                             <div className="qualification__calendar">
                                 <i className="uil uil-calendar-alt "> </i>
-                                2022 - 2023
+                                Jan 2022 - April 2022
                             </div>
                         </div>
 
