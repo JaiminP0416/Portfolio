@@ -1,9 +1,11 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import "./Header.css";
 
 const Header = () => {
-    
-    /* ==================Toggle Menu==================== */
+
+    const[toggle, showMenu] = useState(false);
+    const [activeNav, setActiveNav] = useState("home");
+    const sections = ["home", "about", "skills", "qualification", "portfolio", "contact"];
 
      window.addEventListener("scroll",function() {
         const header = document.querySelector(".header");
@@ -11,12 +13,26 @@ const Header = () => {
         if (this.scrollY >=80) header.classList.add("scroll-header");
         else header.classList.remove("scroll-header");
     })
+    
+    useEffect(() => {
+    const handleScrollSpy = () => {
+      const scrollY = window.scrollY;
 
+      sections.forEach((id) => {
+        const section = document.getElementById(id);
+        if (section) {
+          const sectionTop = section.offsetTop - 100;
+          const sectionHeight = section.offsetHeight;
 
-
-    /* ==================Toggle Menu==================== */
-    const[toggle, showMenu] = useState(false);
-    const [activeNav, setActiveNav] = useState("home");
+          if (scrollY >= sectionTop && scrollY < sectionTop + sectionHeight) {
+            setActiveNav(`#${id}`);
+          }
+        }
+      });
+    };
+        window.addEventListener("scroll", handleScrollSpy);
+    return () => window.removeEventListener("scroll", handleScrollSpy);
+  }, []);
 
   return (
     <header className="header">
