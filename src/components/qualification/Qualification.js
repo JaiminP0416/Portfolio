@@ -37,13 +37,15 @@ const Qualification = () => {
 
                 <div className={toggleState === 1 ? "qualification__content qualification__content-active" : "qualification__content"}>
                     
+
+
                     <div className="qualification__data">
                         <div className='left-row' >
-                            <h3 className="qualification__title">Technical Support<br/>Specialist</h3>
-                            <span className="qualification__subtitle">Visaic Inc.</span>
+                            <h3 className="qualification__title">Full Stack Developer</h3>
+                            <span className="qualification__subtitle">Shift Creative Co.</span>
                             <div className="qualification__calendar">
                                 <i className="uil uil-calendar-alt"> </i>
-                                Dec 2023 - Present
+                                Nov 2023 – May 2025 
                             </div>
                         </div>
 
@@ -63,11 +65,11 @@ const Qualification = () => {
                         </div>
 
                         <div>
-                            <h3 className="qualification__title">Jr. Web Developer</h3>
-                            <span className="qualification__subtitle">Maruti Digital Solutions</span>
+                            <h3 className="qualification__title">Technical Support<br/>Specialist</h3>
+                            <span className="qualification__subtitle">Visaic Inc.</span>
                             <div className="qualification__calendar">
                                 <i className="uil uil-calendar-alt"> </i>
-                                July 2022 - June 2023
+                                Dec 2023 - Present
                             </div>
                         </div>
 
@@ -75,17 +77,36 @@ const Qualification = () => {
 
                     <div className="qualification__data">
                         <div className='left-row'>
-                            <h3 className="qualification__title">Software Developer</h3>
-                            <span className="qualification__subtitle">Precision Embedded</span>
+                            <h3 className="qualification__title">Jr. Web Developer</h3>
+                            <span className="qualification__subtitle">Maruti Digital Solutions</span>
                             <div className="qualification__calendar">
                                 <i className="uil uil-calendar-alt "> </i>
-                                Jan 2022 - April 2022
+                                July 2022 - June 2023
                             </div>
                         </div>
 
                         <div>
                             <span className="qualification__rounder"></span>
                             <span className="qualification__line"></span>
+                        </div>
+
+                    </div>
+                    
+                    <div className="qualification__data">
+                        <div></div>
+
+                        <div>
+                            <span className="qualification__rounder"></span>
+                            <span className="qualification__line"></span>
+                        </div>
+
+                        <div>
+                            <h3 className="qualification__title">Software Developer</h3>
+                            <span className="qualification__subtitle">Precision Embedded</span>
+                            <div className="qualification__calendar">
+                                <i className="uil uil-calendar-alt"> </i>
+                                Jan 2022 - April 2022
+                            </div>
                         </div>
 
                     </div>
